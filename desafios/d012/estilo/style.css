@@ -76,7 +76,7 @@ section > p{
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block; /*ajusta caixa ao contéudo, para não cortar com o ajuste do tamanho de letra à janela*/
     padding: 5px;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.383);
     text-shadow: 1px, 1px, 0px, black;
 }
 #img01{
