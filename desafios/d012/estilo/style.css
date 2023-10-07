@@ -12,7 +12,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 
 }
 
 header{
@@ -30,6 +29,7 @@ header > h1{
 
 header > p{
     padding-bottom: 50px;
+    font-size: small;
 }
 
 a{
@@ -56,6 +56,10 @@ section{
     font-size: 3.5vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 .normal_branca{
     background-color: white;
     color: black;
@@ -64,12 +68,26 @@ section{
 .imagem_fundo{
     background-color: rgb(52, 51, 51);
     color: white;
+    background-size: cover;
+    background-attachment: fixed; /* efeito parallax */
 }
+
 .imagem_fundo > p{
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block; /*ajusta caixa ao contéudo, para não cortar com o ajuste do tamanho de letra à janela*/
     padding: 5px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    text-shadow: 1px, 1px, 0px, black;
 }
+#img01{
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
+}
+    
+#img02{
+    background-image: url("../imagens/background002.jpg");
+}
+
 footer{
     background-color: black;
     text-align: center;
