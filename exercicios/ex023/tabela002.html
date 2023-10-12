@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: darkslateblue;
+            color: white;
+        }
+        thead, tfoot{
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+   <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População dos Distritos de Portugal</caption>
+        <thead>
+            <tr>
+                <th scope="col">Distrito</th>
+                <th scope="col" style="width: 120px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lisboa</td>
+                <td class="num">2287869</td>
+            </tr>
+            <tr>
+                <td>Porto</td>
+                <td class="num">1803223</td>
+            </tr>
+            <tr>
+                <td>Setúbal</td>
+                <td class="num">882588</td>
+            </tr>
+            <tr>
+                <td>Braga</td>
+                <td class="num">850128</td>
+            </tr>
+            <tr>
+                <td>Aveiro</td>
+                <td class="num">708902</td>
+            </tr>
+            <tr>
+                <td>Faro</td>
+                <td class="num">469983</td>
+            </tr>
+            <tr>
+                <td>Leiria</td>
+                <td class="num">465169</td>
+            </tr>
+            <tr>
+                <td>Santarém</td>
+                <td class="num">451633</td>
+            </tr>
+            <tr>
+                <td>Coimbra</td>
+                <td class="num">411510</td>
+            </tr>
+            <tr>
+                <td>Viseu</td>
+                <td class="num">352720</td>
+            </tr>
+            <tr>
+                <td>Madeira</td>
+                <td class="num">252693</td>
+            </tr>
+            <tr>
+                <td>Açores</td>
+                <td class="num">238794</td>
+            </tr>
+            <tr>
+                <td>Viana do Castelo</td>
+                <td class="num">231882</td>
+            </tr>
+            <tr>
+                <td>Vila Real</td>
+                <td class="num">185148</td>
+            </tr>
+            <tr>
+                <td>Castelo Branco</td>
+                <td class="num">178664</td>
+            </tr>
+            <tr>
+                <td>Évora</td>
+                <td class="num">153507</td>
+            </tr>
+            <tr>
+                <td>Beja</td>
+                <td class="num">146353</td>
+            </tr>
+            <tr>
+                <td>Guarda</td>
+                <td class="num">142868</td>
+            </tr>
+            <tr>
+                <td>Bragança</td>
+                <td class="num">122452</td>
+            </tr>
+            <tr>
+                <td>Portalegre</td>
+                <td class="num">105031</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>10 421 117</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
